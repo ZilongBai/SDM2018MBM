@@ -15,7 +15,9 @@ Theta.m : calculates the spatial continuity penalty matrix theta according to th
 
 AlphaExtractor_normM.m : extracts alphas from weighted mixing matrices M (Equation 4.17 of the paper Mixtures of Block Models for Brain Networks, SDM 2018).       
 
-reconserrs.m : serves to calculate the relative reconstruction error of the multigraph.      
+reconserrs.m : serves to calculate the relative reconstruction error of the multigraph.
+
+tensorvectordot.m : serves for weighted matrix summation.
 
 updateF_continuity.m : serves to use multiplicative update rules to update nonnegative tensor F (Equation 4.15 in paper Mixtures of Block Models for Brain Networks, SDM 2018).
 
